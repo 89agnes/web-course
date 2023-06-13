@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form registration</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="reg.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/fav/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- jquery link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--custom js file-->
+    <script src="script.js"></script>
+
+    <section>
+        <div class="container">
+            <div class="cloud">
+            </div>
+            <div class="rain">
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:15;"></span>
+            </div>
+        </div>
+    </section>
+
+    <video autoplay controls="true" width="370" height="370" style="float:right;text-align:right;margin-right:10px"> 
+        <source src="video/Video/Video.mp4" type="video/mp4" />
+    </video>
+
+    <!-- table -->
+    <table>
+
+        <tr>
+            <td>Nama Lengkap</td>
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Tempat Lahir</td>
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="Date"></td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input type="radio" name='jenis_kelamin' value='pria' />Pria
+                <input type="radio" name='jenis_kelamin' value='perempuan' />Perempuan</td>
+        </tr>
+
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea cols="22" rows="3"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>E-mail</td>
+            <td>:</td>
+            <td><input type="email"></td>
+        </tr>
+
+        <tr>
+            <td>No Hp</td>
+            <td>:</td>
+            <td><input type="number"></td>
+        </tr>
+
+        <tr>
+            <td>Negara</td>
+            <td>:</td>
+            <td><select>
+        <option>*****pilih negara*****</option>
+        <option>USA</option>
+        <option>Indonesia</option>
+        <option>France</option>
+        <option>Rusia</option>
+        <option>India</option>
+        <option>UK</option>
+        <option>Thailand</option>
+        </select></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input type="submit" name="submit" value="Simpan" />
+                <input type="reset" name="reset" value="Batal" /></td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
